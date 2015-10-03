@@ -8,7 +8,7 @@ Put the script at the bottom of your markup right after jQuery:
 
 ```
 <script src="jquery.min.js"></script>
-<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="lmao-gradient.min.js"></script>
 ```
 Wrap your item (```div```,```a```, ```li``` etc.) except ```span```  
 
