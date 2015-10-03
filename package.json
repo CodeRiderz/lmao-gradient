@@ -1,0 +1,29 @@
+{
+  "name": "lmao-gradient",
+  "version": "1.0.0",
+  "description": "Gradient for Zombies",
+  "main": "webpack.config.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --hot --progress --colors",
+    "build": "webpack --progress --colors -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeRiderz/lmao-gradient.git"
+  },
+  "author": "chi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeRiderz/lmao-gradient/issues"
+  },
+  "homepage": "https://github.com/CodeRiderz/lmao-gradient#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.1"
+  }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #list-sample {
+            list-style: none;
+            margin:10px 0px;
+            padding : 0px;
+        }
+        #list-sample > li {
+            float: left;
+        }
+        #list-sample > li + li {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Simple text</h2>
+<div id="sample-text">
+    Hello My Name is Budi, Budi is going to the market.
+</div>
+<br/>
+<h2>Inside a List</h2>
+<ul id="list-sample">
+    <li>Something's</li>
+    <li>Wrong</li>
+    <li>With</li>
+    <li>Budi</li>
+</ul>
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../dist/lmao-gradient.min.js"></script>
+<script type="text/javascript">
+    $('#sample-text').lmaoGradient({
+        gradientColor : [
+            [166, 181, 210],
+            [207, 0, 59],
+            [212, 130, 35],
+            [201, 197, 61],
+            [100, 188, 185],
+            [166, 181, 210]
+        ]
+    });
+    $('#list-sample').lmaoGradient({
+        join : true,
+        joinElement : 'li',
+        gradientColor : [
+            [166, 181, 210],
+            [207, 0, 59],
+            [212, 130, 35],
+            [201, 197, 61],
+            [100, 188, 185],
+            [166, 181, 210]
+        ]
+    });
+</script>
+</html>
